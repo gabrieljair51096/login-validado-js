@@ -21,6 +21,9 @@ document.addEventListener('DOMContentLoaded', function(){
         cleanError(emailError)
     })
     
+    passwordInput.addEventListener('blur', function(){
+        validatePassword()
+    })
     passwordInput.addEventListener('change', function(){
         cleanError(passwordError)
     })
